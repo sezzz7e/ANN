@@ -7,7 +7,7 @@ with open("diabetes_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load scaler
-with open("/content/scaler.pkl", "rb") as f:
+with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 st.title("Diabetes Prediction App")
